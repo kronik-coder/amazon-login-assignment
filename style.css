@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-weight: 400;
+}
+main p {
+    width: 47%; 
+    text-align: center; 
+    border-bottom: 1px solid grey; 
+    line-height: 0.1em;
+    margin: 2rem 0;
+ }
+ 
+ main p span { 
+     background: white;
+     padding: 0 10px;
+     color: grey;
+ }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid lightgrey;
+    padding: 3rem;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+button {
+    padding: .7rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+button:active {
+    background-color: white;
+}
+#continue {
+    background-color: #FFC72C;
+}
+#continue:active {
+    background-color: white;
+}
+#create-account {
+    width: 47%;
+}
+a {
+    text-decoration: none;
+    color: #146eb4;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer a {
+    margin: 2rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    form {
+        width: 30%;
+    }
+    main p {
+        width: 27%;
+    }
+    #create-account {
+        width: 27%;
+    }
+}
